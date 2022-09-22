@@ -7,6 +7,12 @@ h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.footer-change
+{
+  padding-bottom: 7%;
+}
+
+
 .truncate {
     width: 250px;
     white-space: nowrap;
@@ -73,11 +79,11 @@ h3{
 
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding-bottom: 0%;
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
