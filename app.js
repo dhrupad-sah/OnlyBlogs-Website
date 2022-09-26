@@ -7,7 +7,7 @@ const _ = require("lodash");
 const e = require("express");
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://dhrupad_sah:<password>@cluster0.8gepm9r.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://dhrupad_sah:SBP@2009a@cluster0.8gepm9r.mongodb.net/?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 const blogSchema = new mongoose.Schema({
   blogTitle: String,
