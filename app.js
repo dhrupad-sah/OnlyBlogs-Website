@@ -7,7 +7,7 @@ const _ = require("lodash");
 const e = require("express");
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://dhrupad_sah:SBP%402009a@cluster0.8gepm9r.mongodb.net/blogDB2", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://dhrupad_sah:NWFSfcaSGRmOewnY@cluster0.8gepm9r.mongodb.net/blogDB2", {useNewUrlParser: true});
 
 const blogSchema = new mongoose.Schema({
   blogTitle: String,
@@ -96,5 +96,5 @@ app.get("/posts/:postName", (req,res)=>
 });
 
 app.listen(process.env.PORT || 5000, function() {
-  console.log("Server started on port 3000");
+  console.log("Server started on port 5000");
 });
