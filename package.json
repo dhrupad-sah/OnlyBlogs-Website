@@ -10,10 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "eiows": "^4.1.2",
     "ejs": "^2.6.1",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.6.1",
+    "socket.io": "^4.5.4",
     "tailwindcss": "^3.1.8"
   }
 }
